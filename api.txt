@@ -1,0 +1,15 @@
+For Register API
+
+http://localhost/api1/API.php?flag=Register&name=Roshit%20Massey&email=roshitmassey@gmail.com&password=12345&mobile=9621010999&address=RN_42,Sector-62,Noida
+
+
+For Login API
+
+{"User_Details":{"name":"Roshit Massey","email":"roshitmassey@gmail.com","mobile":"9621010999","address":"RN_42,Sector-62,Noida"},"status":"1"}
+
+http://localhost/api1/API.php?flag=Login&mobile=9621010999&password=12345
+
+update api
+http://localhost/api1/API.php?flag=Update&name=kumari&email=sanju034@gmail.com&password=123456&mobile=1234567890&address=noida&id=2
+ delete api
+http://localhost/api1/API.php?flag=Delete&id=1
